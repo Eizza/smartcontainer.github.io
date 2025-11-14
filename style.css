@@ -11,6 +11,7 @@
 	padding: 0;
 	font-family: myFont;
 	text-decoration: none;
+	color: inherit;
 }
 h1 { font-size: clamp(28px, 6vw, 72px); }
 h2 { font-size: clamp(24px, 5vw, 60px); }
@@ -178,6 +179,10 @@ button:active {
 }
 .block2 p {
 	text-align: justify;
+}
+.block2 ul p{
+	background: red;
+	text-align: center;
 }
 .block2 ul {
 	display: flex;
