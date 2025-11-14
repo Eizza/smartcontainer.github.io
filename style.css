@@ -10,7 +10,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: myFont;
-	text-decoration: none;
+	text-decoration: none !important;	
 	color: inherit;
 }
 h1 { font-size: clamp(28px, 6vw, 72px); }
@@ -120,7 +120,7 @@ button:active {
 	display: flex;
 }
 .logo{
-	width: clamp(75px, 8vw, 100px);
+	width: clamp(60px, 7vw, 100px);
 	z-index: 10;
 }
 .cont1 {
@@ -128,13 +128,13 @@ button:active {
 	display: flex;
 }
 .cont1 img{
-	width: 30px;
+	width: 25px;
 }
 .cont1 .context1{
 	margin: 0 1.5vw;
 }
 .fill {
-	padding: 10px;
+	padding: 5px;
 	/*border-radius: 15px;*/
 }
 .bg {
