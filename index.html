@@ -76,7 +76,7 @@
 				<ul>
 					<li>
 						<img src="img/icons/company/key.png" alt="">
-						<p>Работа «под ключ»: проектирование, доставка, монтаж, подключение коммуникаций.</p>
+						<p>Работа «под ключ»</p>
 				
 					</li>
 					<li>
@@ -223,9 +223,25 @@
 		 					</ul>
 	 					<!-- ------------------------- -->
 	 				</li>
+
+	 				<li class="br3"></li>
 	 				<li>
 	 					<!-- ------------------------- -->
-		 						
+		 				<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+    ymaps.ready(function () {
+        var map = new ymaps.Map("map", {
+            center: [51.199532, 71.480148],
+            zoom: 16
+        });
+
+        map.geoObjects.add(new ymaps.Placemark([51.199532, 71.199532]));
+    });
+</script>
+	
 		 				<!-- ------------------------- -->
 	 				</li>
 	 			</ul>

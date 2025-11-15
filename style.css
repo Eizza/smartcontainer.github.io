@@ -87,6 +87,7 @@ button:active {
   transform: scale(0.96);
 }
 .wpp {
+	display: none;
 	width: 60px;
 	height: 60px;
 	overflow: hidden;
